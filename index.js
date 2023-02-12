@@ -10,37 +10,30 @@ function makeid(length) {
     return result;
 }
 
-if(document.getElementById('4').clicked == true)
-{
+document.getElementById('4').onclick = function() {
    document.getElementById('gen-box').innerHTML = makeid(4)
 }
 
-if(document.getElementById('5').clicked == true)
-{
+document.getElementById('5').onclick = function() {
    document.getElementById('gen-box').innerHTML = makeid(5)
 }
 
-if(document.getElementById('6').clicked == true)
-{
+document.getElementById('6').onclick = function() {
    document.getElementById('gen-box').innerHTML = makeid(6)
 }
 
-if(document.getElementById('7').clicked == true)
-{
+document.getElementById('7').onclick = function() {
    document.getElementById('gen-box').innerHTML = makeid(7)
 }
 
-if(document.getElementById('8').clicked == true)
-{
+document.getElementById('8').onclick = function() {
    document.getElementById('gen-box').innerHTML = makeid(8)
 }
 
-if(document.getElementById('9').clicked == true)
-{ 
+document.getElementById('9').onclick = function() {
    document.getElementById('gen-box').innerHTML = makeid(9)
 }
 
-if(document.getElementById('10').clicked == true)
-{
+document.getElementById('10').onclick = function() {
    document.getElementById('gen-box').innerHTML = makeid(10)
 }
