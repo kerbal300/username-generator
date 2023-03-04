@@ -10,13 +10,13 @@ function makeid(length) {
     return result;
 }
 
-document.getElementById('4').onclick = function() {
+document.getElementById('4').addEventListener("click", function() {
    document.getElementById('gen-box').innerHTML = makeid(4)
-}
+)};
 
-document.getElementById('5').onclick = function() {
+document.getElementById('5').addEventListener("click", function() {
    document.getElementById('gen-box').innerHTML = makeid(5)
-}
+)};
 
 document.getElementById('6').onclick = function() {
    document.getElementById('gen-box').innerHTML = makeid(6)
