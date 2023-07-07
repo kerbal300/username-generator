@@ -10,30 +10,30 @@ function makeid(length) {
     return result;
 }
 
-document.getElementById('4').addEventListener("click", ()=>{
-   document.getElementById('gen-box').innerHTML = makeid(4);
-});
+function gen4() {
+   document.getElementById('gen-box').innerHTML = makeid(4)
+};
 
-document.getElementById('5').addEventListener("click", ()=>{
-   document.getElementById('gen-box').innerHTML = makeid(5);
-});
+function gen5() {
+   document.getElementById('gen-box').innerHTML = makeid(5)
+};
 
-document.getElementById('6').addEventListener("click", ()=>{
-   document.getElementById('gen-box').innerHTML = makeid(6);
-});
+function gen6() {
+   document.getElementById('gen-box').innerHTML = makeid(6)
+};
 
-document.getElementById('7').addEventListener("click", ()=>{
-   document.getElementById('gen-box').innerHTML = makeid(7);
-});
+function gen7() {
+   document.getElementById('gen-box').innerHTML = makeid(7)
+};
 
-document.getElementById('8').addEventListener("click", ()=>{
-   document.getElementById('gen-box').innerHTML = makeid(8);
-});
+function gen8() {
+   document.getElementById('gen-box').innerHTML = makeid(8)
+};
 
-document.getElementById('9').addEventListener("click", ()=>{
-   document.getElementById('gen-box').innerHTML = makeid(9);
-});
+function gen9() {
+   document.getElementById('gen-box').innerHTML = makeid(9)
+};
 
-document.getElementById('10').addEventListener("click", ()=>{
-   document.getElementById('gen-box').innerHTML = makeid(10);
-});
+function gen10() {
+   document.getElementById('gen-box').innerHTML = makeid(10)
+};
